@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Times New Roman", Times, serif;
+  padding: 1em 2em;
+}
+span {
+  font-weight: bold;
+}
+h1,
+h2 {
+  color: blueviolet;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.first-chapter,
+.second-chapter,
+.third-chapter,
+.fourth-chapter {
+  display: flex;
+  justify-content: flex-start;
+  gap: 45px;
+}
+.hor-line{
+    border: 1px solid green;
+}
+.style-of-text {
+  font-style: italic;
+}
+.years {
+  width: 200px;
+  margin-top: 1em;
+}
+.not-so-far {
+  width: 150px;
+}
+.skills-list  {
+  list-style-type: none;
+  margin-left: 10em;
+  line-height: 2;
+}
